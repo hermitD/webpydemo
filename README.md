@@ -1,2 +1,4 @@
 # webpydemo
-a simple demo implements register and login
+simple demo implements
+
+--register 	a register and login demo
