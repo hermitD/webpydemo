@@ -1,0 +1,31 @@
+$def with (page)
+<!--
+//******************************************************************************
+// Description: 
+// Dependances:                                       
+// Date:
+//******************************************************************************
+-->
+
+<html>
+<head>
+    $if page.has_key('title'):
+        <title>$page.title</title>
+    $else:
+        <title>Registers</title>
+    <style>
+    </style>
+</head>
+<body>
+
+<ul>
+    <li><a href="/login">login</a></li>
+    <li><a href="/reg">reg</a></li>
+    <li><a href="/forget">forget</a></li>
+</ul>
+
+$:page
+
+</body>
+</html>
+
